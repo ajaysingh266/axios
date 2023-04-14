@@ -1,0 +1,27 @@
+.wg_tabs_wraper {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.wg_tabs_tab {
+    padding: 1rem 0;
+
+}
+
+.wg_tabs_ms2 {
+    margin-left: 2rem;
+}
+
+.wg_tabs_active {
+    color: #1890FF;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+
+}

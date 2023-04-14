@@ -1,0 +1,35 @@
+// Axios is a JS library used to make HTTP reuest from node.js ro XMLHTTPRequest from the browser and it supports 
+// the Promise API that is native to ES6.
+
+// axios config:
+
+// config = {
+//     method: 'method',
+//     url:'url',
+//     data:{}                 // request type: put, post, get agar post request hai to post request ke sath kya data jayega 
+//     responseType:'json';
+// }
+// axios(config);              // ye method call karte hai
+
+// // another way of doing
+
+// axios({
+//         method: 'method',
+//         url:'url',
+//         data:{} ,
+//         responseType:'json';
+// });
+
+// // Request Config
+// these are the available config option for making requests. only the url is required. Request will default to GET if method is not specified.
+
+// // shorthand request methods
+// --> axios.request(config)
+// --> axios.get(url[,config])
+// --> axios.delete(url[,config])
+// --> axios.head(url[,config])
+// --> axios.options(url[,config])
+// --> axios.post(url[,data[,config]])
+// --> axios.put(url[,data[,config]])
+// --> axios.patch(url[,data[,config]])
+
