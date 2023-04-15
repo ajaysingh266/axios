@@ -14,7 +14,7 @@ function Filter(){
         <h2>This is filter page</h2>
         <h3>Age is: {age}</h3>
         <h3>City is: {city}</h3>
-        <input type={"text"} onChange={(e)=>setSearchParams({text:e.target.value})}  placeholder="Set Text in query Param"/>
+        <input type={"text"} onChange={(e)=>setSearchParams({text:e.target.value, age:10})}  placeholder="Set Text in query Param"/>
         <button onClick={()=>setSearchParams({age:40})}>Set Age in query</button> <br/>
         <NavLink to={"/"}>Go to Home Page</NavLink>
         </>
