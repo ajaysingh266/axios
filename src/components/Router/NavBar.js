@@ -11,7 +11,10 @@ const NavBar = () => {
              
                 {/* link replace with navlink */}
              
-                <li> <NavLink className={"navbar-link"} to={"/"}>Home</NavLink></li>
+                <li> <NavLink
+// className={"navbar-link"} 
+style = {({isActive})=>{return{color:isActive?"skyblue":""}}}
+to={"/"}>Home</NavLink></li>
                 <li><NavLink className={"navbar-link"} to={"/about"}>About</NavLink></li>
                 <li><NavLink className={"navbar-link"} to={"/contact"}>Contact</NavLink></li>
                 <li><NavLink className={"navbar-link"} to={"./filter"}>Filter</NavLink></li>
