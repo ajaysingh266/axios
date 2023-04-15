@@ -1,8 +1,19 @@
-
+// install react router
 // Where we can use react routing?
 // on Web
 // on server-side with node js
 // with react-native
+
+// 1. home
+// 2. about
+// 3. navbar
+// 4. 404
+// 5. user & about
+// 6. Navbar for Navlink & app.css
+// 7. active link(navbar and app.css)
+// 8. search param (filter.js)
+// 9. navigate on button click(home.js)
+// 10. nested routing
 
 // link vs navlink
 // with NavLink we can add custom style and classes
