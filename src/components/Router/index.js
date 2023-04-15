@@ -10,7 +10,10 @@ return(
      <Route to="/user/:name" element={<User/>}/>
     <Route to="/*" element={<Navigate to ="/"/>}/>
     <Route path = "/filter" element = {<Filter/>}/>
-  <Route path = "/contact" element = {<Contact/>} />
+  <Route path = "/contact/" element = {<Contact/>} >
+  <Route path = "company" element = {<company/>}/>
+    <Route path = "channel" element = {<channel/>}/>
+  </Route>
   </Routes>
   </BrowserRouter>
 </>
